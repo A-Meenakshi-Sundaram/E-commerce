@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="header1" id="home" style="background-color: black;">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="logo" width=220px">
+                </div>
+                <nav>
+                    <ul id="Menu-Items">
+                        <li><a href="Mini_Project.html" style="color:rgb(255, 123, 0);">Home</a></li>
+                        <li><a href="" style="color: rgb(255, 123, 0);">About</a></li>
+                        <li><a href="" style="color: rgb(255, 123, 0);">Contact</a></li>
+                    </ul>
+                </nav>
+                <i class="fa fa-shopping-cart fa-2x" style="color: rgb(255, 123, 0);"></i>
+                <img src="bar.png" class="menu-icon" style="width: 40px; height: 30px" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+<!-----------------------------Contact---------------->
+<div class="contact-all">
+    <!---<div class="alert-success">
+        <span>Message sent ! Thank you for contacting us !</span>
+    </div>
+    <div class="alert-error">
+        <span>Something went wrong ! Please try again.</span>
+    </div>
+    <div class="contact-section">-->
+        <div class="contact-info">
+            <div><i class="fa-sharp fa-solid fa-location-dot"></i>Address, City, Country</div>
+            <div><i class="fas fa-envelope"></i>contact@gmail.com</div>
+            <div><i class="fas fa-phone"></i>+00 0000 000 000</div>
+            <div><i class="fas fa-clock"></i>Mon - Sat 8:00 AM to 7:00 PM</div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form class="contact" action="" method="post" >
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="email" name="name" class="text-box" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required ></textarea>
+                <input type="submit" name="submit" class="send-btn" value="Send">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <!------------------------footer-------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3 style="color: rgb(255, 123, 0);">Download our app</h3>
+                <p>Download App for Android and IOS mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="Logo.png">
+                <p>Our purpose is to sustainably make the pleasure and benefits of dress accessible to many</p>
+            </div>
+            <div class="footer-col-3">
+                <h3 style="color: rgb(255, 123, 0);">Useful links</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Blog post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3 style="color: rgb(255, 123, 0);">Follow Us</h3>
+                <ul>
+                    <li><a href="https://bit.ly/3RLZDqP">Facebook</a></li>
+                    <li><a href="https://twitter.com/i/flow/login">Twitter</a></li>
+                    <li><a href="https://bit.ly/3fNVkhi">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022</p>
+    </div>
+</div>
+<script>
+    var menu=document.getElementById("Menu-Items");
+    menu.style.maxHeight="0px"
+    function menutoggle(){
+        if (menu.style.maxHeight == "0px")
+        {
+            menu.style.maxHeight="200px"
+        }
+        else
+        {
+            menu.style.maxHeight="0px"
+        }
+    }
+</script>
+
+<script>
+    var loginform = document.getElementById("loginform");
+    var regform = document.getElementById("regform");
+    var indicator = document.getElementById("indicator");
+
+    function login(){
+        regform.style.transform = "translateX(300px)";
+        loginform.style.transform = "translateX(300px)";
+        indicator.style.transform = "translateX(0px)";
+    }
+
+    function register(){
+        regform.style.transform = "translateX(0px)";
+        loginform.style.transform = "translateX(0px)";
+        indicator.style.transform = "translateX(100px)";
+
+    }
+
+</script>
+
+</body>
+</html>

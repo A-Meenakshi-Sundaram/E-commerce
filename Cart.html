@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="logo" width="220px">
+                </div>
+                <nav>
+                    <ul id="Menu-Items">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <i class="fa fa-shopping-cart fa-2x" style="color: gray"></i>
+                <img src="bar.png" class="menu-icon" style="width: 40px; height: 30px" onclick="menutoggle()">
+            </div>
+        </div>
+
+
+<!-----------------Cart item details------------>
+
+<!--------------------Puma------------------->
+
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-cloth">Puma</h2>
+        <div class="row">
+            <div class="col-2">
+                <img src="pic/Cloth/dress-1.jpg">
+                <h1>Blackish Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="col-2">
+                <img src="pic/Cloth/dress-2.jpg">
+                <h1>Classy Blue</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="col-2">
+                <img src="pic/Cloth/dress-3.jpg">
+                <h1>Dark Side</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------------------Adidas------------------>
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-cloth">Adidas</h2>
+        <div class="row">
+            <div class="col-2">
+                <img src="pic/Cloth/adidas-1.jpeg">
+                <h1>Black Pearl</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="col-2">
+                <img src="pic/Cloth/adidas-2.jpeg">
+                <h1>Ruby Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="col-2">
+                <img src="pic/Cloth/adidas-3.jpeg">
+                <h1>Sizzling Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------Adidas------------------->
+
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-shoe">Adidas</h2>
+        <div class="row">
+            <div class="adidas">
+                <img src="pic/Shoes/adidas-1.jpeg">
+                <h1>Blackish Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Shoes/adidas-2.jpeg">
+                <h1>Classy Blue</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Shoes/adidas-3.jpeg">
+                <h1>Dark Side</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------Nike----------------------->
+
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-shoe">Nike</h2>
+        <div class="row">
+            <div class="adidas">
+                <img src="pic/Shoes/nike-1(1).jpeg">
+                <h1>Blackish Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Shoes/nike-2.jpeg">
+                <h1>Classy Blue</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Shoes/nike-3(1).jpeg">
+                <h1>Dark Side</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------Sparx---------------------->
+
+
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-shoe">Sparx</h2>
+        <div class="row">
+            <div class="adidas">
+                <img src="pic/Shoes/sparx-1.jpeg">
+                <h1>Blackish Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Shoes/sparx-2.jpeg">
+                <h1>Classy Blue</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Shoes/sparx-3.jpeg">
+                <h1>Dark Side</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------Other brands------------------>
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-shoe">Other Brands</h2>
+        <div class="row">
+            <div class="col-other-shoe">
+                <img src="pic/Shoes/other-1.jpg">
+                <h1>Black Pearl</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="col-other-shoe">
+                <img src="pic/Shoes/other-2.jpg">
+                <h1>Ruby Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="col-other-shoe">
+                <img src="pic/Shoes/other-3.jpg">
+                <h1>Sizzling Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="col-other-shoe">
+                <img src="pic/Shoes/other-4.jpg">
+                <h1>Sizzling Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------i-watch--------------->
+
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-watch">i-watch</h2>
+        <div class="row">
+            <div class="adidas">
+                <img src="pic/Watch/i-1.jpeg">
+                <h3>Apple Watch SE (2nd Gen) GPS 40mm Silver Aluminium</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Watch/i-2.jpeg">
+                <h3>Apple Watch SE (2nd Gen) GPS 40mm Midnight Aluminium</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Watch/i-3.jpeg">
+                <h3>Apple Watch SE (2nd Gen) GPS 40mm Starlight Aluminium</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------Casio---------------->
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-watch">Casio</h2>
+        <div class="row">
+            <div class="adidas">
+                <img src="pic/Watch/c-1.jpeg">
+                <h1>Blackish Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Watch/c-2.jpeg">
+                <h1>Classy Blue</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Watch/c-3.jpeg">
+                <h1>Dark Side</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----------------------Police---------------->
+<div class="categories">
+    <div class="small-container">
+        <h2 class="fp-title-watch">Police</h2>
+        <div class="row">
+            <div class="adidas">
+                <img src="pic/Watch/p-1.jpeg">
+                <h1>Blackish Red</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Watch/p-2.jpeg">
+                <h1>Classy Blue</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+            <div class="adidas">
+                <img src="pic/Watch/p-3.jpeg">
+                <h1>Dark Side</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.399</p>
+                <button class="add-to-cart-btn">shop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------------------footer-------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Download App for Android and IOS mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="Logo.png">
+                <p>Our purpose is to sustainably make the pleasure and benefits of dress accessible to many</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Blog post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022</p>
+    </div>
+</div>
+<script>
+    var menu=document.getElementById("Menu-Items");
+    menu.style.maxHeight="0px"
+    function menutoggle(){
+        if (menu.style.maxHeight == "0px")
+        {
+            menu.style.maxHeight="200px"
+        }
+        else
+        {
+            menu.style.maxHeight="0px"
+        }
+    }
+</script>
+
+
+</body>
+</html>
